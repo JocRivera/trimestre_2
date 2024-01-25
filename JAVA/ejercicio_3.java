@@ -11,7 +11,7 @@ public class ejercicio_3 {
 			{
 				System.out.println("venta "+(i+1));
 				ventas[i]=sc.nextDouble();
-}
+			}
 			int k=0;
 			int contador=0
 			while (k<30)
@@ -20,6 +20,6 @@ public class ejercicio_3 {
 					System.out.println(ventas[k]);
 				total++;
 					k++;
-}
-}
+			}		
+	}
 }
