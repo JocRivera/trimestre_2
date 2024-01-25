@@ -1,6 +1,14 @@
-/*Declara un String que contenga tu nombre, después muestra un mensaje de bienvenida por consola
-Por ejemplo: si introduzco «Fernando», me aparezca «Bienvenido Fernando».*/
+import java.util.Scanner;
 public class Main4{
-    public static void main (String[]args) 
-    {System.out.println}
+    public static void main(string[]args)
+		{scanner sc=new Scanner(System.in);
+        int numero = sc.nextInt();
+        System.out.println("ingrese un numero: ")}
+        if(numero<0){
+            System.out.println("el numero es:- ")
+        }
+        else {
+            numero*-1
+            System.out.println("el numero es: ")
+        }
 }
