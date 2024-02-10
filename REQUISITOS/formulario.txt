@@ -1,0 +1,29 @@
+formulario proyecto(30 preguntas analizis)
+1-¿cual es tamaño y la capacidad de visitantes en la empresa?
+2-¿que estandares y regulaciones tiene el sector hotelero?
+3-¿que meses son de temporada?
+4-¿como se gestionan actualmente las reservas?
+5-¿utilizan algun software para las administrar reservas?
+6-¿cuanto tiempo en promedio se tardan en hacer la reserva?
+7-¿que metodos de pago aceptan?
+8-¿como es el proceso de check.in?
+9-¿como es el proceso de check.out?
+10-¿que tan eficiente concidera que es su proceso de check.out?
+11-¿cuales son los principales inconvenientes que se presentan a
+la hora de reservar?
+12-¿como se cancelan las reservas?
+13-¿tienen algun sistema de fidelizacion de clientes?
+14-¿implementan medidas de seguridad y privacidad?
+15-¿es flexible el sistema de reservas actual a la hora de hacer un cambio
+de fecha o una modificacion?
+16-¿recopilan y utilizan datos de los usuarios?
+17-¿ofrecen servicio de check.in y check.out en linea?
+18-¿que medidas toman para agilizar el proceso de check.in?
+19-¿como gestionan pagos anticipados y depositos?
+20-¿como se manejan las situaciones de sobreventa?
+21-¿tienen sistemas de gestion de inventario pra controlar la disponibilidad
+de habitaciones?
+22-¿que analisis realizan para evaluar la satisfaccion del cliente
+con el proceso de reserva, check.in, check.out?
+23-¿cual es la politica de devolucion en caso de cancelaciones
+o cambios en la reserva?
