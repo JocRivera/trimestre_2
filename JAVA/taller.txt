@@ -1,7 +1,0 @@
-1-crea un proyecto en java y ponerle nombre
-2-crea una clase donde se ingrese un numero por teclado y se imprima con simbolo contrario, colocar lineas de comentario. 
-3-crea un clase donde se ingresen los datos del aprendiz, se deben imprimir los datos.
-5-hacer una clase que pida ingresar un numero y evalue si este es par o impar.
-6-hacer una clase la veta de un producto cantidad, valor
-7-hacer un programa que lea estaturas 
-josecommit
