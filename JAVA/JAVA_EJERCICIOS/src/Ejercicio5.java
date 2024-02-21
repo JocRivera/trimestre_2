@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-public class Ejercicio5 {
-    
-}
-=======
 import java.util.Scanner;
 import java.util.Arrays; // Necesario para usar Arrays.toString()
 
@@ -27,4 +22,3 @@ public class Ejercicio5 {
     }
 }
 
->>>>>>> origin/main
