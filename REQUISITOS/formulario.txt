@@ -1,4 +1,6 @@
 formulario proyecto(30 preguntas analizis)
+
+0-¿como es el dia a dia en la empresa?
 1-¿cual es tamaño y la capacidad de visitantes en la empresa?
 2-¿que estandares y regulaciones tiene el sector hotelero?
 3-¿que meses son de temporada?
@@ -27,3 +29,9 @@ de habitaciones?
 con el proceso de reserva, check.in, check.out?
 23-¿cual es la politica de devolucion en caso de cancelaciones
 o cambios en la reserva?
+24-¿cuales son los cargos?
+25-¿que personal tiene acceso al software?
+26-¿considera importante almacenar la informacion historica de las reservas?
+27-¿Qué desiciones podria tomar con esta informacion?
+28-¿presta otros servicios ademas de las reservas?
+29-¿cuantos establecimientos maneja?
