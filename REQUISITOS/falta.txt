@@ -1,0 +1,8 @@
+
+0-¿como es el dia a dia en la empresa?
+24-¿cuales son los cargos?
+25-¿que personal tiene acceso al software?
+26-¿considera importante almacenar la informacion historica de las reservas?
+27-¿Qué desiciones podria tomar con esta informacion?
+28-¿presta otros servicios ademas de las reservas?
+29-¿cuantos establecimientos maneja?
