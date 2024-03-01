@@ -1,0 +1,9 @@
+body h1{
+    font-size: larger;
+    color: rgb(19, 197, 221);
+    display: flex;    
+    justify-content: center;
+}
+.list{
+    position: relative;
+}    
