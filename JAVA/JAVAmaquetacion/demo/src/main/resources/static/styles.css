@@ -1,0 +1,83 @@
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.row {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row li {
+    width: 100px;
+    /* Cambia este valor según el tamaño deseado */
+    height: 100px;
+    /* Cambia este valor según el tamaño deseado */
+    margin-right: 10px;
+    /* Espacio entre elementos */
+}
+
+.row li span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    /* Centra el texto verticalmente */
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    max-height: 300px;
+    /* Establece el tamaño máximo para todas las imágenes */
+    margin: 0 auto;
+    /* Centra horizontalmente las imágenes */
+}
+
+.carousel-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    z-index: 1;
+    font-size: 20px;
+    color: #555;
+    transition: background 0.3s;
+}
+
+.carousel-button-prev {
+    left: 10px;
+}
+
+.carousel-button-next {
+    right: 10px;
+}
+
+.carousel-container img {
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.carousel-container img:hover {
+    width: 100%;
+}
