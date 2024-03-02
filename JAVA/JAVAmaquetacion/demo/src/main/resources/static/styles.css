@@ -1,6 +1,23 @@
+body {
+    background-color: #40489E;
+    color: white;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
 .logo img {
     max-width: 200px;
     height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    text-align: center;
 }
 
 .row {
@@ -18,6 +35,9 @@
     /* Cambia este valor según el tamaño deseado */
     margin-right: 10px;
     /* Espacio entre elementos */
+    border: 7px solid white;
+    border-radius: 10px;
+    color: black;
 }
 
 .row li span {
@@ -80,4 +100,46 @@
 
 .carousel-container img:hover {
     width: 100%;
+}
+
+.link {
+    background-color: rgb(110, 158, 42);
+    position: absolute;
+    border-radius: 15px;
+    flex: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.link a {
+    position: relative;
+    align-content: center;
+}
+
+.container img {
+    width: 100%;
+    height: 300px;
+    /* Altura deseada del contenedor */
+    background-image: url('tu_imagen.jpg');
+    /* Ruta a tu imagen de fondo */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Color de fondo con opacidad */
+    background-blend-mode: lighten;
+    /* Modo de mezcla para ajustar la opacidad */
+    background-size: contain;
+    /* Ajusta el tamaño de la imagen para que se ajuste dentro del contenedor */
+    background-position: center;
+    /* Centra la imagen en el contenedor */
+}
+
+.mision,
+.vision {
+    display: inline-block;
+    /* Para que las secciones aparezcan en línea */
+    width: 45%;
+    /* Ajusta el ancho de cada sección según sea necesario */
+    vertical-align: top;
+    /* Alinea las secciones en la parte superior */
+    margin: 10px;
+    /* Agrega un margen entre las secciones */
 }
