@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquetación del Proyecto</title>
@@ -11,12 +12,12 @@
 <body>
     <header>
         <h1>Reservas Hosteria Los Lagos Spa</h1>
-        <div>
-            <img src="corporativa.png" alt="corporativa">
+        <div class="logo">
+            <img src="imagenes\logo.jpg" alt="corporativa">
         </div>
         <section>
             <h2>Definición de la Carta de colores</h2>
-            <ul>
+            <ul class="row">
                 <li><span style="background-color: #4a94f5;">color</span></li>
                 <li><span style="background-color: #50d3d8;">color</span></li>
                 <li><span style="background-color: #2574ce;">color</span></li>
@@ -24,13 +25,12 @@
                 <!-- Agrega más colores según sea necesario -->
             </ul>
         </section>
-        
-        <section>
-            <h2>Logos</h2>
-            <!-- Logotipo<s -->
-        </section>
         <section>
             <h2>Misión, visión, objetivos</h2>
+            <section>
+                <h2>Mision</h2>
+                <p>PROMOTORA DE TURISMO BARBOSA busca que los valores y principios asociados al desarrollo sostenible, sean integrados en todos los procesos de negocios.  Estamos convencidos que la sostenibilidad es el elemento clave para que el turismo siga siendo un gran motor de desarrollo en el país ya que vamos a generar un bajo impacto sobre el medio ambiente y la cultura local, al tiempo que se contribuye a la generación de ingresos y empleo para la población local.  Buscamos además que sea un espacio destinado a la recreación y esparcimiento de nuestros visitantes, proporcionándoles espacios adecuados para cualquier tipo de actividad familiar o empresarial, generando experiencias positivas mediante la prestación de un excelente servicio que nos permita posicionarnos en el mercado local, regional, nacional e internacional.</p>
+            </section>
             <!-- Misión, visión, objetivos -->
         </section>
     </header>
@@ -71,15 +71,20 @@
                 <h3>Alertas estándares</h3>
                 <!-- Diseño de alertas -->
             </article>
-            <article>
+            <article class="carrusel">
                 <h3>Carrusel (imágenes)</h3>
                 <div class="carousel">
-                    <img src="imagen1.jpg" alt="Imagen 1">
-                    <img src="imagen2.jpg" alt="Imagen 2">
-                    <img src="imagen3.jpg" alt="Imagen 3">
-                    <!-- Agrega más imágenes según sea necesario -->
-                </div>
-            </article>
+                    <div class="carousel-container">
+                        <img src="/imagenes/cabaña.jpeg" alt="Imagen 1">
+                        <img src="/imagenes/habitacion.jpg" alt="Imagen 2">
+                        <img src="/imagenes/romantico.jpeg" alt="Imagen 3">
+                        <!-- Agrega más imágenes según sea necesario -->
+                    </div>
+                    <button class="carousel-button carousel-button-prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="carousel-button carousel-button-next" onclick="nextSlide()">&#10095;</button>
+                </div>                
+            </article>            
+            
             
             <article>
                 <h3>Créditos</h3>
@@ -87,5 +92,7 @@
             </article>
         </section>
     </main>
+    <script src="script.js"></script> <!-- Enlaza tu archivo JavaScript -->
+
 </body>
 </html>

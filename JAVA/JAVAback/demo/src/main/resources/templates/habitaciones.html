@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Habitaciones</title>
+</head>
+<body>
+    <h1>Listado de Habitaciones</h1>
+
+    <!-- Enlace para crear una nueva habitación -->
+    <a href="/habitaciones/create">Crear Nueva Habitación</a>
+    
+
+    <!-- Lista de habitaciones -->
+    <ul>
+        <li th:each="habitacion : ${habitaciones}">
+            <!-- Mostrar el nombre de la habitación -->
+            <a th:href="@{/habitaciones/{id}(id=${habitacion.id})}" th:text="${habitacion.numero}"></a>
+            
+            <!-- Enlace para actualizar la habitación -->
+            <a th:href="@{/habitaciones/update/{id}(id=${habitacion.id})}">Actualizar</a>
+            
+            <!-- Formulario para borrar la habitación -->
+            <form th:action="@{/habitaciones/delete}" method="post">
+                <input type="hidden" name="id" th:value="${habitacion.id}">
+                <button type="submit">Borrar</button>
+            </form>
+        </li>
+    </ul>
+    
+</body>
+</html>

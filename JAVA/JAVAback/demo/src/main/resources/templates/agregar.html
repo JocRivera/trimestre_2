@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Agregar Reserva</title>
+</head>
+<body>
+    <h1>Agregar Reserva</h1>
+    <form action="#" th:action="@{/reservas/agregar}" th:object="${reservaForm}" method="post">
+        <p>Fecha de inicio: <input type="date" th:field="*{fecha_inicio}"/></p>
+        <p>Fecha de fin: <input type="date" th:field="*{fecha_fin}"/></p>
+        <p>ID de la habitación: <input type="number" th:field="*{habitacion_id}"/></p>
+        <p>ID del cliente: <input type="number" th:field="*{cliente_id}"/></p>
+        <p><input type="submit" value="Submit"/></p>
+    </form>
+</body>
+</html>

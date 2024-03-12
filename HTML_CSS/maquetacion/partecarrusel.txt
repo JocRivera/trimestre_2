@@ -1,0 +1,49 @@
+.carrusel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    text-align: center; /* Centra horizontalmente los elementos */
+}
+
+.carrusel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    overflow: hidden; /* Asegura que solo se muestre una imagen a la vez */
+}
+
+.slider-section {
+    flex: 0 0 auto;
+    margin: 0 auto; /* Centra horizontalmente cada imagen */
+    text-align: center; /* Centra horizontalmente el contenido dentro de cada sección */
+    width: 100%; /* Asegura que cada sección de imagen ocupe el 100% del ancho */
+}
+
+.slider-section img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+.carrusel-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    z-index: 1;
+    font-size: 20px;
+    color: #555;
+    transition: background 0.3s;
+}
+
+.carrusel-button-prev {
+    left: 10px;
+}
+
+.carrusel-button-next {
+    right: 10px;
+}

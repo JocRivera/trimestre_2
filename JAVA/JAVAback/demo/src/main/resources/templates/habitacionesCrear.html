@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Habitacion Management</title>
+</head>
+
+<body>
+    <h1>Habitacion Management</h1>
+
+    <!-- Create Habitacion -->
+    <h2>Create Habitacion</h2>
+    <form th:action="@{/habitaciones}" th:object="${habitacion}" method="post">
+        <label for="create-id">ID:</label>
+        <input type="text" th:field="*{id}" id="create-id" name="create-id">
+
+        <label for="create-numero">Numero:</label>
+        <input type="text" th:field="*{numero}" id="create-numero" name="create-numero">
+
+        <label for="create-tipo">Tipo:</label>
+        <input type="text" th:field="*{tipo}" id="create-tipo" name="create-tipo">
+
+        <label for="create-precio">Precio:</label>
+        <input type="text" th:field="*{precio}" id="create-precio" name="create-precio">
+
+        <input type="submit" value="Create">
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

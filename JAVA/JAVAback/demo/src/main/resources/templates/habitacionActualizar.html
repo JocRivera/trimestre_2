@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Update Habitacion</h2>
+    <form th:action="@{/habitaciones/update}" th:object="${habitacion}" method="post">
+        <label for="update-id">ID:</label>
+        <input type="text" th:field="*{id}" id="update" name="update-id">
+
+        <label for="create-numero">Numero:</label>
+        <input type="text" th:field="*{numero}" id="update-numero" name="update-numero">
+
+        <label for="create-tipo">Tipo:</label>
+        <input type="text" th:field="*{tipo}" id="update-tipo" name="update-tipo">
+
+        <label for="create-precio">Precio:</label>
+        <input type="text" th:field="*{precio}" id="update-precio" name="update-precio">
+
+        <input type="submit" value="update">
+    </form>
+</body>
+
+</html>
