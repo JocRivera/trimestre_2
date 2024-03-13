@@ -5,16 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="/css/calendario.css" rel="stylesheet" />
+
 </head>
 
 <body>
-    <form action="/reservas/disponibles" method="get">
-        <label for="fecha_inicio">Fecha de inicio:</label><br>
-        <input type="date" id="fecha_inicio" name="fecha_inicio"><br>
-        <label for="fecha_fin">Fecha de fin:</label><br>
-        <input type="date" id="fecha_fin" name="fecha_fin"><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="body-re">
+        <div class="reservation-container">
+            <div class="calendar-container">
+                <div class="header">
+                    <button id="prev-month">↩</button>
+                    <h2 id="current-month-year"></h2>
+                    <button id="next-month">↪</button>
+                </div>
+                <div id="weekdays"></div>
+                <div class="days" id="days"></div>
+            </div>
+            <div class="date-input">
+                <label for="start-date">Fecha de Entrada:</label>
+                <input type="text" id="start-date" readonly>
+            </div>
+            <div class="date-input">
+                <label for="end-date">Fecha de Salida:</label>
+                <input type="text" id="end-date" readonly>
+            </div>
+
+            <button id="reserve-button">Consultar</button>
+            <button id="clear-button">Limpiar</button>
+        </div>
+    </div>
+    <script src="/js/calendario.js"></script>
 </body>
 
 </html>
