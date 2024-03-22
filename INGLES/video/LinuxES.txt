@@ -1,0 +1,31 @@
+Linus Torvalds crea el kernel de Linux que combina el sistema operativo de código abierto GNU/linux, que esta basado en unix.
+
+Nace en Helsinki, Finlandia, el 28 de diciembre de 1969.
+Comienza a trabajar en el kernel de Linux en 1991 como un proyecto personal.
+
+El kernel de Linux se fundamenta en el sistema operativo Unix.
+
+Linus Torvalds es conocido por su enfoque relajado y colaborativo en el desarrollo de software.
+
+Linux es utilizado en una amplia gama de dispositivos, desde servidores hasta dispositivos móviles.
+
+Torvalds aboga apasionadamente por el software de código abierto y la filosofía del conocimiento libre.
+
+En 1999, funda la Fundación Linux para promover el desarrollo y la adopción de Linux.
+El modelo de desarrollo de Linux se basa en la colaboración y la contribución de miles de desarrolladores de todo el mundo.
+Torvalds sigue manteniendo el kernel de Linux como su principal tarea.
+El kernel de Linux representa un componente crucial en muchos sistemas operativos, incluidos Android y Chrome OS.
+Torvalds recibe numerosos premios y reconocimientos por su trabajo en el desarrollo de Linux.
+Es incluido en varias listas de las personas más influyentes en tecnología.
+Además de su labor en Linux, Torvalds contribuye a otros proyectos de código abierto.
+Torvalds es conocido por su franqueza y sus comentarios directos en los foros de desarrollo de Linux.
+Expresa su opinión sobre temas como la propiedad intelectual y la competencia en el mercado tecnológico.
+Torvalds también critica a las empresas que no contribuyen adecuadamente al desarrollo de Linux.
+A pesar de su fama, Linus Torvalds sigue siendo una persona accesible y comprometida con la comunidad de desarrolladores.
+Es invitado a dar conferencias en eventos tecnológicos de todo el mundo.
+Linus Torvalds es un ejemplo de cómo una persona puede tener un impacto significativo en el mundo a través del software.
+Su trabajo inspira a una generación de desarrolladores a participar en proyectos de código abierto.
+Torvalds defiende la importancia de la educación en ciencias de la computación desde una edad temprana.
+Su historia personal de creación de Linux se convierte en un símbolo del poder del trabajo colaborativo y la innovación.
+Linus Torvalds continúa siendo una figura influyente en la comunidad tecnológica.
+Su legado perdura como uno de los hitos más importantes en la historia del software de código abierto.
